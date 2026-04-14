@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding:15px;
+    width:400px;
+    margin: 0 auto;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.container h2{
+    text-transform:uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aquamarine;
+}
+p{
+    margin-bottom: 8px;
+    width: 100%;
+}
+.label{
+    text-align: right;
+    width: 80px;
+    float:left;
+    padding-right: 5px;
+}
+p input{
+    width: 250px ;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p button {
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    margin-left: 6px;
+    color: white;
+    background-color: green;
+}
