@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --white-color: #F2F4FF;
+    --black-color:#0D0D0C;
+    --light-color:#F2F4FF;
+    --blue-color:#044C74;
+    --sky-color:#DFE9F3;
+    --green-color:#09513B;
+}
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.brand{
+    padding-top: 20px;
+    padding-right: 600px;
+    padding-bottom: 20px;
+}
+.brand span{
+    color: var(--blue-color);
+    font-size: 30px;
+    font-weight: 700;
+
+}.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap:30px
+}
+.nav li{
+    font-size:16px;
+    font-weight: 300;
+}
+.discover_img{
+    height: 600px;
+    background-image:url(images/scandinavian-decal-background.png) ;
+    position: relative;
+}
+.arrival{
+    background-color: var(--sky-color);
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right:100px;
+    top: 160px;
+    padding-left: 20px;
+    justify-content: start;
+    align-items: start;
+}.arrival span{
+    color: var(--black-color);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.arrival h2{
+    font-size: 2.5rem;
+    color: var(--blue-color);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.arrival p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.furniture_btn{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 30px;
+    width: 40%;
+    height: 15%;
+}
+.icon_line{
+    background-color: var(--light-color);
+    padding: 30px 30px 30px 30px;
+}
+.icon{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.icon p{
+    font-size: 16px;
+}
+.collection{
+    margin-bottom: 30px;
+}
+.collection h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.collection p{
+    margin-bottom: 40px;
+}
+.collection img{
+    margin-right: 20px;
+}
+.img1{
+    margin-top: 70px;
+    border-top-left-radius: 50px;
+}
+.img3{
+    margin-top: 70px;
+    border-bottom-right-radius: 70px;
+}
+.beautify{
+    background-color: var(--light-color);
+}
+.beautify_text{
+    width: 50%;
+    align-items: start;
+    padding-right: 120px;
+    padding-left: 100px;
+}
+.beautify_text h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.beautify_text p{
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+.beautify_text button{
+    height: 50px;
+}
+.beautify_img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    position: relative;
+}
+.beautify_img img{
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    z-index: 1;
+}
+footer{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding:40px 50px 80px 50px ;
+}
+.beauticare{
+    align-items: start;
+}
+.beauticare h4{
+    margin-bottom: 20px;
+}
+.beauticare p{
+    line-height: 40px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.instagram{
+    align-items: start;
+}
+.instagram h4{
+    margin-bottom: 20px;
+}
+.footer_img img{
+    margin-right: 15px;
+}
+.green_half{
+    height: 300px;
+    width: 150px;
+    border: none;
+    background-color: var(--green-color);
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    position: absolute;
+    z-index: 0;
+    right:5px
+}
