@@ -1,0 +1,17 @@
+.danhmuc{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+   text-decoration: underline red;
+}
+
+.box-card{
+    padding: 10px;
+}
+.bot-foot{
+    padding-left: 30%;
+    text-align: center;
+}
