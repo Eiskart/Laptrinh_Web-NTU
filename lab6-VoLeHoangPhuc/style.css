@@ -1,0 +1,20 @@
+.nav-color{
+    background-color:#1E293B ;
+    color: white;
+}
+.body-color{
+    background-color: #E1E8F0;
+}
+
+.box-card{
+    padding: 10px;
+}
+
+.product-btns{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.product-box:hover .product-btns{
+    opacity: 1;
+}
