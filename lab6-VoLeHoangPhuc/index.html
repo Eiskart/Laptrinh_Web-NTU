@@ -39,10 +39,10 @@
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                                
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">DangNhap</a>
+                                    <a class="nav-link"  href="#" data-bs-toggle="modal" data-bs-target="#modalDangNhap">DangNhap</a>
                                 </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">DangKy</a>
+                                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalDangKy">DangKy</a>
                                 </li>
                                
                             </ul>
@@ -51,6 +51,101 @@
                     </div>
                 </nav>
                 
+            </div>
+            <div
+                class="modal fade"
+                id="modalDangNhap"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                    role="document"
+                >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">
+                                Đăng Nhập
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                    <input class="" type="text" placeholder="Tên đănh nhập">
+                                    <input type="password" name="" id="" placeholder="Mật khẩu">
+                                </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">Đăng nhập</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+          <div
+                class="modal fade"
+                id="modalDangKy"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                    role="document"
+                >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">
+                                Đăng Ký
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                    <input class="" type="text" placeholder="Tên đănh ký">
+                                    <input type="password" name="" id="" placeholder="Mật khẩu">
+                                </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- place navbar here -->
         </header>
